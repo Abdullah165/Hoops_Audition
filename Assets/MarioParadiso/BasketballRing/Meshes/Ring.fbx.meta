@@ -1,9 +1,21 @@
 fileFormatVersion: 2
 guid: 39cdb67551e295b4eb562c1180c6b15a
+AssetOrigin:
+  serializedVersion: 1
+  productId: 297800
+  packageName: BasketballRing
+  packageVersion: 1.0
+  assetPath: Assets/MarioParadiso/BasketballRing/Meshes/Ring.fbx
+  uploadId: 698496
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 01 - Default
+    second: {fileID: 2100000, guid: 3bc6afa5f674bf34b958fbe8ab47debf, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -16,8 +28,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -107,10 +117,3 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 297800
-  packageName: BasketballRing
-  packageVersion: 1.0
-  assetPath: Assets/MarioParadiso/BasketballRing/Meshes/Ring.fbx
-  uploadId: 698496
