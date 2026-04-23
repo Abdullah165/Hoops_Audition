@@ -1,9 +1,12 @@
-# Hoops Audition
+#  Hoops Audition VR
 
-**How to play:**
-* Hold left-click to grab the ball and charge your throw.
-* Release to shoot.
+A virtual reality basketball prototype built to experiment with physics and clean software architecture. 
 
-**What I focused on:**
-* **Clean Code:** I used ScriptableObject Event Channels so the scripts aren't tightly coupled. The UI, audio, and gameplay don't rely on hard references to each other.
-* **Game Feel:** I used Slerp to make the camera smoothly move between shooting positions.
+## How to Play
+* Grab the basketball using your VR controller's grip button.
+* Throw and release to shoot!
+
+## Technical Highlights
+
+* **Decoupled Architecture:** Built a completely event-driven system using **ScriptableObjects** as Event Channels. 
+* **Modular Codebase:** The scoring system, gameplay logic, and audio managers do not rely on hard references to each other, making the project highly modular and easy to expand.
