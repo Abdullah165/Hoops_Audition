@@ -10,3 +10,6 @@ A virtual reality basketball prototype built to experiment with physics and clea
 
 * **Decoupled Architecture:** Built a completely event-driven system using **ScriptableObjects** as Event Channels. 
 * **Modular Codebase:** The scoring system, gameplay logic, and audio managers do not rely on hard references to each other, making the project highly modular and easy to expand.
+
+## Sample Video
+https://www.linkedin.com/feed/update/urn:li:activity:7453091652031832064/
